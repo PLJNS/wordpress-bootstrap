@@ -1,5 +1,7 @@
 <?php
 
+add_filter( 'show_admin_bar', '__return_false' );
+
 // Add Translation Option
 load_theme_textdomain( 'wpbootstrap', TEMPLATEPATH.'/languages' );
 $locale = get_locale();
